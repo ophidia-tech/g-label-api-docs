@@ -23,5 +23,8 @@
         * [新建](api/template/create.md)
         * [获取单个](api/template/fetch-single.md)
         * [获取所有](api/template/fetch-all.md)
+    * Message 消息
+        * [发送消息](api/message/send.md)
+        * [获取消息](api/message/fetch.md)
 * 后端架构设计
 
