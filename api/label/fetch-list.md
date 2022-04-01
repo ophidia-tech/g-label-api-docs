@@ -10,6 +10,7 @@
 - Body: 
 ```json
 {
+    "type": "list", // map or list
     "page": 10, // 第几页
     "numPerPage": 10 // 每页多少个
 }
@@ -25,12 +26,16 @@
     "data": {
        "labels": [
            {
-               "studyNumber": "Some Text",
-               "productName": "Some Text",
-               "country": "Some Text",
-               "createDate": "DD-MM-YYYY", // ISO date
-               "expiryDate": "DD-MM-YYYY", // ISO date
-               "status": "Pending Verification",
+                "studyNumber": "Some Text",
+                "productName": "Some Text",
+                "country": "Some Text",
+                "createDate": "DD-MM-YYYY", // ISO date
+                "expiryDate": "DD-MM-YYYY", // ISO date
+                "status": "Pending Verification",
+                "coordinates": {
+                    "longitude": "-0.127758",
+                    "latitude": "51.507351",
+                },
            },
            ...
        ]
