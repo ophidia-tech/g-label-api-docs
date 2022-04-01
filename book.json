@@ -1,0 +1,20 @@
+{
+    "title": "G-label Design",
+    "author" : "Yangtao Ge",
+    "description" : "G-Label design",
+    "language" : "zh-hans",
+    "plugins": [
+        "-lunr",
+        "-search",
+        "search-pro",
+        "back-to-top-button"
+    ],
+    "pluginsConfig": {
+        "anchor-navigation-ex": {
+            "isShowTocTitleIcon": true
+        },
+        "theme-default": {
+            "showLevel": true
+        }
+    }
+}
